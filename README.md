@@ -1,2 +1,14 @@
-# Code-Coffee
-Code &amp; Coffee Workspace es una Single Page Application (SPA) diseñada como proyecto académico para la materia Paradigmas de la Programación en la Universidad Nacional del Este.
+☕ Code & Coffee Workspace — React SPACode & Coffee Workspace es una Single Page Application (SPA) diseñada como proyecto académico para la materia Paradigmas de la Programación en la Universidad Nacional del Este. El objetivo es ofrecer una experiencia de usuario fluida para la reserva de espacios de trabajo individual y pedidos anticipados de cafetería.  🚀 Características PrincipalesSistema de Reservas (Estilo Ticketmaster): Grid interactivo de 4×3 donde cada mesa gestiona estados de disponibilidad (libre, ocupado, seleccionado) en tiempo real.  Menú Gastronómico: Catálogo dinámico con productos seleccionados (Espresso, Latte, Croissants, Avocado Toast) con integración inmediata al carrito.Carrito Offcanvas: Gestión de pedidos con actualización de cantidades y cálculo automático de totales.Pasarela de Pago Simulada: Formulario con validación y alternancia de métodos de pago (Tarjeta de Crédito o Efectivo al Retirar).  Rastreador de Pedidos (Live Tracker): Sistema post-confirmación con código de referencia único, barra de progreso animada y temporizador de cuenta regresiva.🛠️ Stack TecnológicoVite + React: Para un entorno de desarrollo rápido y una estructura basada en componentes.Bootstrap 5: Implementado para garantizar un diseño 100% responsive  y componentes de UI consistentes.  Git/GitHub: Utilizado para el control de versiones y trabajo colaborativo del grupo.  🎨 Sistema de DiseñoLa aplicación utiliza una paleta de colores cálidos inspirada en el café para una estética profesional y acogedora:Fondo: #F5E6D3 (Crema)Acentos: #A0785A (Café Suave)Texto: #5C3D2E (Café Oscuro)Mesas: Verde (Libre), Rojo (Ocupado), Marrón #8B6F47 (Seleccionado).Tipografía: Outfit para encabezados e Inter para el cuerpo de texto (Google Fonts).📂 Estructura del ProyectoBashsrc/
+ ├── components/
+ │    ├── Navbar.jsx        # Navegación con scroll suave
+ │    ├── TableMap.jsx      # Grid interactivo de mesas
+ │    ├── Menu.jsx          # Catálogo de productos
+ │    ├── Cart.jsx          # Gestión lateral del pedido
+ │    ├── Checkout.jsx      # Formulario de pago y validación
+ │    └── OrderTracker.jsx  # Seguimiento de pedido post-pago
+ ├── App.jsx                # Gestión de estado global (useState)
+ └── index.css              # Variables de color y estilos globales
+⚙️ Instalación y EjecuciónPara ejecutar este proyecto localmente, sigue estos pasos:  Clonar el repositorio:Bashgit clone https://github.com/tu-usuario/code-coffee-workspace.git
+Instalar dependencias:Bashnpm install
+Ejecutar en modo desarrollo:Bashnpm run dev
+Abrir en el navegador: http://localhost:5173👥 Integrantes del GrupoDe acuerdo con la planificación grupal establecida:  Lucas Portillo: Desarrollo y Lógica (React Specialist).Ulises Bareiro: Diseño de UI/UX y Maquetación.Luciano Cabral: Documentación y Requisitos.Leonardo Balmaceda: QA y Pruebas de Funcionalidad.📅 Hitos del ProyectoEtapa 1 (Planificación): 8 de mayo de 2026.  Entrega Final: 20 de mayo de 2026.  Nota Académica: Este proyecto cumple con los requisitos de interfaz amigable, interactividad, diseño responsive y código limpio solicitados en la cátedra.
