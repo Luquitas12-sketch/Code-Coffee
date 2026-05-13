@@ -155,8 +155,8 @@ code-coffee-workspace/
 
 **1. Clonar el repositorio**
 ```bash
-git clone https://github.com/tu-usuario/code-coffee-workspace.git
-cd code-coffee-workspace
+https://github.com/Luquitas12-sketch/Code-Coffee.git
+cd Code-Coffee
 ```
 
 **2. Instalar dependencias**
